@@ -8,16 +8,17 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, get, child } from "firebase/database";
 
 const firebaseConfig = {
-
-    apiKey: "AIzaSyCAWdu9X-k0hbQOnPEcsyWgEGsnZAMkS7Y",
-    authDomain: "smaedatos.firebaseapp.com",
-    databaseURL: "https://smaedatos-default-rtdb.firebaseio.com",
+    
+     apiKey: "",
+    authDomain: "",
+    databaseURL: "",
     projectId: "smaedatos",
-    storageBucket: "smaedatos.firebasestorage.app",
-    messagingSenderId: "970845369642",
-    appId: "1:970845369642:web:5e09cc1304510f2788da53",
-    measurementId: "G-82Y8VF30B7"
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
+
 /**
  * Aqui se va a inicializar la base del firebase
  */
